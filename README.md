@@ -8,7 +8,7 @@ The `DSP` branch is dedicated to the development of the Digital Signal Processin
 
 - **IDE:** [Visual Studio Code](https://code.visualstudio.com/) (VSCode) is the preferred Integrated Development Environment for working on the DSP algorithm.
 
-- **DSP Library:** This branch relies on the [PortAudio]([http://www.portaudio.com/](https://github.com/PortAudio/portaudio)) library for audio I/O functionality. Ensure that you have PortAudio installed and configured for development. Refer to the PortAudio documentation for installation instructions.
+- **DSP Library:** This branch relies on the [PortAudio]([http://www.portaudio.com/](https://github.com/PortAudio/portaudio)]) library for audio I/O functionality. Ensure that you have PortAudio installed and configured for development. Refer to the PortAudio documentation for installation instructions.
 
 - **Dependencies:** Ensure that you have all necessary dependencies and libraries installed for DSP development. Refer to the project documentation for details.
 
