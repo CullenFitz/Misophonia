@@ -1,0 +1,5 @@
+../DSP/Src/audio_processing.c:18:6:readWavFile	32	static
+../DSP/Src/audio_processing.c:32:6:writeWavFile	48	static
+../DSP/Src/audio_processing.c:72:6:applyLowPassFIRFilter	104	static
+../DSP/Src/audio_processing.c:95:6:processAudioFile	72	dynamic
+../DSP/Src/audio_processing.c:113:8:calculateBufferSize	24	static
