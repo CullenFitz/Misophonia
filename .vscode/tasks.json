@@ -28,6 +28,26 @@
 			],
 			"group": "build",
 			"detail": "compiler: /usr/bin/clang"
-		}
+		},
+		{
+            "label": "Build C Program",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+				"-I${workspaceFolder}/utils/inc",
+				"${workspaceFolder}/utils/src/utils.c",
+				"${file}",
+				"-L/usr/local/lib",
+				"-lfftw3",
+				"-lm",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
 	]
 }
